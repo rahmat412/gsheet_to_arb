@@ -2,30 +2,30 @@ name: gsheet_to_arb_example
 description: Example of how to use ghseet_to_arb plugin
 
 environment:
-  sdk: '>=3.0.0 <4.0.0'
+  sdk: ">=3.0.0 <4.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  intl: ^0.19.0
-  intl_translation: ^0.20.0
+  intl: ^0.20.2
+  intl_translation: ^0.20.1
   intl_utils: ^2.8.4
 
 dev_dependencies:
   gsheet_to_arb:
     path: ../
   test: ^1.25.2
-  mockito: ^5.4.4 
-  
-gsheet_to_arb: 
-  arb_file_prefix: 'intl'
-  localization_file_name: 'ExampleLang'
+  mockito: ^5.4.4
+
+gsheet_to_arb:
+  arb_file_prefix: "intl"
+  localization_file_name: "ExampleLang"
   arb_dir: lib/l10n
   output_dir: lib/generated
   generate_code: true
   add_context_prefix: false
-  gsheet: 
-    auth_file: './credentials.yaml'
+  gsheet:
+    auth_file: "./credentials.yaml"
     category_prefix: "# "
-    document_id: '1-W-OuH3GR1rSkLqN_-iwMe8yGQbjVyRHhWueKjVWT5E'
-    sheet_id: '0'
+    document_id: "1-W-OuH3GR1rSkLqN_-iwMe8yGQbjVyRHhWueKjVWT5E"
+    sheet_id: "0"
